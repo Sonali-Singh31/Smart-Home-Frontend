@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+/* Remove any unwanted outlines or borders globally */
+* {
+  outline: none !important;
+}
+
+/* Remove any browser default borders or lines */
+aside, header, main, div {
+  border: none !important;
+}
+
+/* Ensure consistent clean background */
+html, body {
+  background-color: #f9fafb; /* Tailwind's gray-50 */
+}
